@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no,address=no,date=no,email=no">
+<title>Kseniia Ivanova — AGU26 Stordalen</title>
+<style>
+  :root{
+    --bg:#fff; --fg:#191919; --muted:#6e6e6e; --line:#e4e4e2;
+    --accent:#0b5d6e; --card:#f6f6f4;
+    --yes:#1a7f4b; --yes-bg:#e8f5ee;
+    --hi:#9a4a06;  --hi-bg:#fcefe3;
+    --no:#8a8a8a;  --no-bg:#f1f1ef;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#121312; --fg:#eceae6; --muted:#9a9894; --line:#2b2c2b;
+      --accent:#6fc2d2; --card:#1a1b1a;
+      --yes:#5fd69a; --yes-bg:#15261d;
+      --hi:#f0a868;  --hi-bg:#2a1d12;
+      --no:#7d7b78;  --no-bg:#1d1e1d;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#121312; --fg:#eceae6; --muted:#9a9894; --line:#2b2c2b;
+    --accent:#6fc2d2; --card:#1a1b1a;
+    --yes:#5fd69a; --yes-bg:#15261d;
+    --hi:#f0a868;  --hi-bg:#2a1d12;
+    --no:#7d7b78;  --no-bg:#1d1e1d;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%}
+  .wrap{max-width:34rem;margin:0 auto;padding:2.4rem 16px 4rem}
+  h1{font-size:1.4rem;line-height:1.28;margin:0 0 .6rem;letter-spacing:-.01em}
+  .authors{margin:0 0 .5rem;font-size:.95rem}
+  .authors b{font-weight:600}
+  .authors sup{font-size:.7em;color:var(--muted)}
+  .affil{color:var(--muted);font-size:.82rem;line-height:1.5;margin:0 0 2.2rem}
+  .affil span{display:block}
+  h2{font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;
+    color:var(--muted);font-weight:600;margin:2.1rem 0 .75rem}
+  table{width:100%;border-collapse:collapse;font-size:.93rem}
+  th{text-align:left;font-size:.74rem;text-transform:uppercase;letter-spacing:.07em;
+    color:var(--muted);font-weight:600;padding:0 0 .5rem;border-bottom:1px solid var(--line)}
+  td{padding:.62rem .5rem .62rem 0;border-bottom:1px solid var(--line);vertical-align:top}
+  td:last-child{padding-right:0;text-align:right;white-space:nowrap}
+  .day{font-weight:600;white-space:nowrap}
+  .tag{display:inline-block;border-radius:999px;padding:.17rem .6rem;
+    font-size:.78rem;font-weight:600;letter-spacing:.01em}
+  .yes{color:var(--yes);background:var(--yes-bg)}
+  .hi {color:var(--hi); background:var(--hi-bg)}
+  .no {color:var(--no); background:var(--no-bg)}
+  .slotday{color:var(--muted);font-size:.9rem;margin:0 0 1rem}
+  .note{color:var(--muted);font-size:.85rem;margin:.9rem 0 0}
+  .note a{color:var(--accent);text-decoration:none}
+  .note a:hover{text-decoration:underline}
+  .rows{list-style:none;margin:0;padding:0}
+  .rows li{border-bottom:1px solid var(--line);padding:.75rem 0;font-size:.95rem}
+  .rows li:last-child{border-bottom:0}
+  .rows .lab{color:var(--muted);font-size:.78rem;text-transform:uppercase;
+    letter-spacing:.06em;display:block;margin-bottom:.15rem}
+  .rows a{color:var(--accent);text-decoration:none}
+  .rows a:hover{text-decoration:underline}
+  footer{margin-top:3rem;padding-top:1.1rem;border-top:1px solid var(--line);
+    color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:1rem}
+  .me{margin:0 0 2rem;display:flex;align-items:center;gap:1rem}
+  .me img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none;background:var(--card)}
+  .me figcaption{color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Evaluating spatial upscaling strategies for Arctic carbon fluxes: high-density mobile chamber measurements at the Stordalen Mire (Sweden)</h1>
+
+  <p class="authors">
+    <b>Kseniia Ivanova</b><sup>1</sup>, Abdullah Bolek<sup>1</sup>,
+    Mark Schlutow<sup>1</sup>, Nathalie Ylenia Triches<sup>1</sup>
+    and Mathias Göckede<sup>1</sup>
+  </p>
+  <p class="affil">
+    <span>1 &nbsp;Max Planck Institute for Biogeochemistry, Jena, Germany</span>
+  </p>
+
+  <!-- PHOTO: upload a file named photo.jpg into this same folder (abisko/).
+       Until it exists, this block hides itself. -->
+  <figure class="me">
+    <img src="photo.jpg" alt="Kseniia Ivanova" onerror="this.closest('figure').remove()">
+    <figcaption>Look for me at the poster</figcaption>
+  </figure>
+
+  <h2>When you can find me</h2>
+  <p class="slotday">Day &middot; poster session HH:MM &ndash; HH:MM &middot; board 000</p>
+
+  <!-- ============================================================
+       AVAILABILITY — one row per 30 minutes of the poster session.
+       Replace HH:MM with the real session times; add or delete rows
+       so they cover the whole session.
+
+       Change only the coloured label in the right column. Pick one:
+
+         <span class="yes">At the poster</span>     green
+         <span class="hi">Taken</span>              orange
+         <span class="no">Away</span>               grey
+  ============================================================= -->
+  <table>
+    <tbody>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+      <tr>
+        <td class="day">HH:MM &ndash; HH:MM</td>
+        <td><span class="yes">At the poster</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="note">Outside these times, just write me an email and we will find a slot.
+  </p>
+
+  <h2>Contact</h2>
+  <ul class="rows">
+    <li><span class="lab">Email</span><a href="mailto:kivanova@bgc-jena.mpg.de">kivanova@bgc-jena.mpg.de</a></li>
+    <li><span class="lab">My other AGU26 poster</span><a href="../">Sensitivity of Arctic-boreal carbon budget assessments to model selection</a></li>
+  </ul>
+
+  <footer>
+    <span>#AGU26</span>
+    <span>Updated 20 November</span>
+  </footer>
+
+</div>
+</body>
+</html>
